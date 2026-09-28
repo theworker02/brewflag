@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/brewflag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brew list/flag set operations for shell-friendly data wrangling.",
+  "bin": {
+    "brewflag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/brewflag.git"
+  },
+  "homepage": "https://theworker02.github.io/brewflag/",
+  "keywords": [
+    "brew",
+    "flag",
+    "list",
+    "cli",
+    "toolkit"
+  ]
+}
